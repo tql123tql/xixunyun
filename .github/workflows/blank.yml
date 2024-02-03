@@ -27,7 +27,7 @@ jobs:
           ADDRESS_NAME: ${{ secrets.奥托立夫（江苏）汽车安全零部件有限公司 }}
           LATITUDE: ${{ secrets.31.702695 }}
           LONGITUDE: ${{ secrets.119.354323 }}
-          SCHOOL_ID: ${{ secrets.运城职业技术大学 }}
+          SCHOOL_ID: ${{ secrets.14226 }}
           EMAIL: ${{ secrets.EMAIL }}
           CODE: ${{ secrets.CODE }}
           TOKEN: ${{ secrets.1321d1ba05f942b6a3f499354d03436 }}
