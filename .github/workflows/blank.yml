@@ -21,16 +21,16 @@ jobs:
       # npm install
       - name: 签到日志
         env:
-          ACCOUNT: ${{ secrets.ACCOUNT }}
-          PASSWORD: ${{ secrets.PASSWORD }}
-          ADDRESS: ${{ secrets.ADDRESS }}
-          ADDRESS_NAME: ${{ secrets.ADDRESS_NAME }}
-          LATITUDE: ${{ secrets.LATITUDE }}
-          LONGITUDE: ${{ secrets.LONGITUDE }}
-          SCHOOL_ID: ${{ secrets.SCHOOL_ID }}
+          ACCOUNT: ${{ secrets.Z2002010704 }}
+          PASSWORD: ${{ secrets.tang2017！ }}
+          ADDRESS: ${{ secrets.江苏省常州市金坛区薛埠镇奥托立夫大道一号 }}
+          ADDRESS_NAME: ${{ secrets.奥托立夫（江苏）汽车安全零部件有限公司 }}
+          LATITUDE: ${{ secrets.31.702695 }}
+          LONGITUDE: ${{ secrets.119.354323 }}
+          SCHOOL_ID: ${{ secrets.运城职业技术大学 }}
           EMAIL: ${{ secrets.EMAIL }}
           CODE: ${{ secrets.CODE }}
-          TOKEN: ${{ secrets.TOKEN }}
+          TOKEN: ${{ secrets.1321d1ba05f942b6a3f499354d03436 }}
         run: |
           npm install
           node app.js
