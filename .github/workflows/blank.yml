@@ -22,7 +22,7 @@ jobs:
       - name: 签到日志
         env:
           ACCOUNT: ${{ secrets.Z2002010704 }}
-          PASSWORD: ${{ secrets.tang2017！ }}
+          PASSWORD: ${{ secrets.Tang2017！ }}
           ADDRESS: ${{ secrets.江苏省常州市金坛区薛埠镇奥托立夫大道一号 }}
           ADDRESS_NAME: ${{ secrets.奥托立夫（江苏）汽车安全零部件有限公司 }}
           LATITUDE: ${{ secrets.31.702695 }}
